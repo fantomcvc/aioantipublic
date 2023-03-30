@@ -25,8 +25,8 @@ from aioantipublic import AntiPublic, AntiPublicError
 
 antip = AntiPublic()
 try:
-	all_wallets = await antip.bin_check(bin='456647')
-	print(all_wallets)
+	bin_info = await antip.bin_check(bin='456647')
+	print(bin_info)
 except AntiPublicError as e:
 	print(e)
 ```
