@@ -1,7 +1,6 @@
 import asyncio
 from aioantipublic import AntiPublic, AntiPublicError
 
-
 async def main():
 	antip = AntiPublic()
 
