@@ -1,4 +1,4 @@
-# aioantipublic
+# Aioantipublic
 Async API wrapper for antipublic.cc
 
 ## Quickstart
@@ -19,7 +19,7 @@ antipublic_check = await antip.antipublic_check(cards=["4242424242424242", "4266
 print(antipublic_check)
 ```
 ## Exception handling
-[See error codes](https://docs.antipublic.cc/)
+
 ```
 from aioantipublic import AntiPublic, AntiPublicError
 
