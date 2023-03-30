@@ -1,5 +1,4 @@
-# Aioantipublic
-Async API wrapper for antipublic.cc
+<img src="https://i.ibb.co/y60NR16/1.jpg" alt="1" border="0" alight="center">
 
 ## Quickstart
 1. Copy `aioantipublic/` folder into your project
