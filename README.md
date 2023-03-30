@@ -31,3 +31,7 @@ except AntiPublicError as e:
 	print(e)
 ```
 `> {'detail': 'BIN "111111" not found.'`
+
+## License
+
+Project Aioantipublic is distributed under the MIT license
