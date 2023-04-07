@@ -1,1 +1,1 @@
-from .antipublic import AntiPublic, AntiPublicError
+from .aioantipublic import AntiPublic, AntiPublicError
