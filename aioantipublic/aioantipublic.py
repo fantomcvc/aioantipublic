@@ -20,7 +20,7 @@ class AntiPublic:
 		self.path_api_prefix = "https://api.antipublic.cc/cards"
 
 	@validate_arguments
-	async def bin_check(
+	async def bin_info(
 			self,
 			bin: str
 		) -> Dict:
@@ -52,7 +52,7 @@ class AntiPublic:
 
 	
 	@validate_arguments
-	async def bins_check(
+	async def bin_info_list(
 			self,
 			bins: list,
 		) -> Dict:
@@ -85,7 +85,7 @@ class AntiPublic:
 			return await self._request(method, url, json)
 	
 	@validate_arguments
-	async def antipublic_check(
+	async def check_public(
 			self,
 			cards: list,
 		) -> Dict:
