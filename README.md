@@ -1,7 +1,7 @@
 <img src="https://i.ibb.co/y60NR16/1.jpg" alt="1" border="0" alight="center">
 
 ## Quickstart
-1. Copy `aioantipublic/` folder into your project
+1. Copy `aioantipublic/` folder into your project or `pip install git+https://github.com/fantomcvc/aioantipublic.git`
 2. Install dependencies `pip install -r aioantipublic/requirements.txt/`
 3. See examples
 4. Read the [documentation](https://docs.antipublic.cc/)
@@ -10,7 +10,7 @@
 1. `from aioantipublic import AntiPublic, AntiPublicError`
 2. `antip = AntiPublic()`
 3. See example
-```
+``` python
 bin_info = await antip.bin_info(bin='456647')
 print(bin_info)
 
@@ -19,7 +19,7 @@ print(check_public)
 ```
 ## Exception handling
 
-```
+``` python
 from aioantipublic import AntiPublic, AntiPublicError
 
 antip = AntiPublic()
