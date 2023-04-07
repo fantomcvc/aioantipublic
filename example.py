@@ -5,14 +5,14 @@ async def main():
 	antip = AntiPublic()
 
 	try:
-		bin_info = await antip.bin_check(bin='456647')
+		bin_info = await antip.bin_info(bin='456647')
 		print(bin_info)
 
-		bins_check = await antip.bins_check(bins=['456647', '424242'])
-		print(bins_check)
+		bin_info_list = await antip.bin_info_list(bins=['456647', '424242'])
+		print(bin_info_list)
 
-		antipublic_check = await antip.antipublic_check(cards=["4242424242424242", "4266845237252027"])
-		print(antipublic_check)
+		check_public = await antip.check_public(cards=["4242424242424242", "4266845237252027"])
+		print(check_public)
 	except AntiPublicError as e:
 		print(e)
 
