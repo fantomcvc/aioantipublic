@@ -11,11 +11,11 @@
 2. `antip = AntiPublic()`
 3. See example
 ```
-bin_info = await antip.bin_check(bin='456647')
+bin_info = await antip.bin_info(bin='456647')
 print(bin_info)
 
-antipublic_check = await antip.antipublic_check(cards=["4242424242424242", "4266845237252027"])
-print(antipublic_check)
+check_public = await antip.check_public(cards=["4242424242424242", "4266845237252027"])
+print(check_public)
 ```
 ## Exception handling
 
@@ -24,7 +24,7 @@ from aioantipublic import AntiPublic, AntiPublicError
 
 antip = AntiPublic()
 try:
-	bin_info = await antip.bin_check(bin='456647')
+	bin_info = await antip.bin_info(bin='111111')
 	print(bin_info)
 except AntiPublicError as e:
 	print(e)
