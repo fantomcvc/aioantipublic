@@ -1,7 +1,7 @@
 <img src="https://i.ibb.co/y60NR16/1.jpg" alt="1" border="0" alight="center">
 
 ## Quickstart
-1. Copy `aioantipublic/` folder into your project or `pip install git+https://github.com/fantomcvc/aioantipublic.git`
+1. Copy `aioantipublic/` folder into your project or `pip install aioantipublic`
 2. Install dependencies `pip install -r aioantipublic/requirements.txt/`
 3. See examples
 4. Read the [documentation](https://docs.antipublic.cc/)
