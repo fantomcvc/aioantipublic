@@ -1,5 +1,8 @@
+<h2 align="center">
 <img src="https://i.ibb.co/y60NR16/1.jpg" alt="1" border="0" alight="center">
 
+[![Downloads](https://static.pepy.tech/personalized-badge/aioantipublic?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/aioantipublic)
+</h2>
 ## Quickstart
 1. Copy `aioantipublic/` folder into your project or `pip install aioantipublic`
 2. Install dependencies `pip install -r aioantipublic/requirements.txt/`
